@@ -1,0 +1,463 @@
+<!-- @import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: block;
+    background-color: rgba(33, 44, 55, 0.7);
+    z-index: 1;
+}
+.nav ul {
+    display: block;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    color: #eee;
+    z-index: 100;
+    width: 380px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.nav ul li a:hover {
+    background-color: #50B4C8;
+    cursor: pointer;
+}
+.billboard {
+    padding: 105px 0px 70px;
+    text-align: center;
+    background-color: #50B4C8;
+}
+.billboard img {} .billboard h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    color: #404444;
+    line-height: 1.35;
+    font-weight: 400;
+    margin: 0 auto 40px;
+    width: 860px;
+}
+.billboard h3 a {
+    color: #404444;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+.billboard a.button-red {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #E44D26;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+}
+.billboard a.button-red:hover {
+    background-color: #F16529;
+}
+.line {
+    transition: width .3s ease-in;
+    -webkit-transition: width .3s ease-in;
+    -moz-transition: width .3s ease-in;
+    -ms-transition: width .3s ease-in;
+    -o-transition: width .3s ease-in;
+    height: 1px;
+    background-color: #d5d5d5;
+    margin: 5px auto;
+    max-width: 100%;
+}
+.s-line1 {
+    width: 100px;
+    margin-top: 10px;
+}
+.s-line2 {
+    width: 75px;
+}
+.s-line3 {
+    width: 50px;
+}
+.cta-button:hover .s-line1 {
+    width: 115px;
+}
+.cta-button:hover .s-line2 {
+    width: 90px;
+}
+.cta-button:hover .s-line3 {
+    width: 65px;
+}
+.intro {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: #ededed;
+    color: #404444;
+}
+.intro h3 {
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 1.35;
+    font-size: 40px;
+}
+.intro p.subtitle {
+    color: #8a8a8a;
+    line-height: 1.35;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 23px;
+    margin: 30px auto;
+    width: 960px;
+}
+ul.team {
+    font-family: Lato;
+    margin-top: 70px;
+}
+ul.team li {
+    display: inline-block;
+    width: 188px;
+    margin: 0 10px;
+    vertical-align: top;
+}
+ul.team li img {
+    width: 188px;
+}
+ul.team li h4 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    line-height: 30px;
+}
+ul.team li h4 a {
+    margin: 10px 0;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    color: #50B4C8;
+    font-size: 16px;
+    line-height: 30px;
+}
+ul.team li p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.35;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin: 10px 0;
+}
+ul.team li p a,
+ul.team li p a:hover,
+ul.team li p a:active,
+ul.team li p a:visited {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.35;
+    font-size: 16px;
+    color: #8a8a8a;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+.social {
+    background-color: #50B4C8;
+    text-align: center;
+    margin: 0;
+    padding: 80px;
+}
+.social h3 {
+    font-family: Lato;
+    color: #eee;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-size: 40px;
+}
+.social p {
+    color: #eee;
+    line-height: 1.35;
+    margin: 10px auto 60px auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.35;
+    font-size: 23px;
+}
+.social ul {} .social ul li {
+    width: 160px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+}
+.social ul li a {} .connect ul li a img {
+    transition: margin-top .3s ease-in-out;
+    -webkit-transition: margin-top .3s ease-in-out;
+    -moz-transition: margin-top .3s ease-in-out;
+    -ms-transition: margin-top .3s ease-in-out;
+    -o-transition: margin-top .3s ease-in-out;
+}
+.social ul li a:hover img {
+    margin-top: -5px;
+}
+.social ul li p {
+    font-family: Lato;
+    font-weight: 300;
+    line-height: 1.35;
+    font-size: 18px;
+}
+.details {
+    background-color: #ededed;
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.details h3 {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #404444;
+}
+.details h4,
+.details h4 a {
+    font-weight: bold;
+    font-family: Raleway;
+    color: #8a8a8a;
+    line-height: 1.35;
+    margin: 10px auto 60px auto;
+    font-size: 23px;
+}
+.details ul {} .details ul li {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #8a8a8a;
+    line-height: 1.35;
+    font-size: 23px;
+}
+.market_box {
+    margin: 60px 0 80px 0;
+}
+.market_box li {
+    font-style: normal;
+    text-align: left;
+    padding: 22px 25px;
+    background-color: #57bcdb;
+    display: inline-block;
+    width: 292px;
+    height: 100px;
+    margin: 15px;
+    vertical-align: top;
+}
+.market_box h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.market_box p {
+    font-family: Raleway;
+    color: #fff;
+    font-weight: 100;
+    font-style: normal;
+}
+.directions {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.directions h3 {
+    color: #404444;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.directions p {
+    color: #404444;
+    margin: 10px auto 60px auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.35;
+    font-size: 23px;
+}
+.action {
+    padding: 20px 80px 70px;
+    text-align: center;
+}
+.action h5 {
+    font-family: Lato;
+    color: #404444;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-size: 40px;
+}
+.action a.button-blue {
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 20px;
+    color: #404444;
+    display: inline-block;
+    background: #50B4C8;
+    border-radius: 100px;
+    padding: 12px 42px;
+    text-decoration: none;
+    letter-spacing: 0;
+    text-transform: none;
+    border-bottom: 1px dotted;
+    margin: 0;
+}
+.action a.button-blue:hover {} .contact {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url(http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_progressive,h_1200,q_90,w_2000/fe3xt3lofjezi48vro74.jpg);
+    background-size: cover;
+    background-position: 49% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0 110px;
+    margin: 0 auto;
+}
+.contact h3 {
+    font-family: Lato;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.35;
+    color: #eee;
+    font-size: 40px;
+}
+.contact p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #eee;
+    line-height: 1.35;
+    margin: 10px auto 60px auto;
+}
+.contact .contactus {
+    margin: 0 80px;
+}
+.contact input {
+    width: 292px;
+    font-size: 14px;
+    max-width: 100%;
+    padding: 12px;
+    margin: 5px 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border: 1px solid #bebebe;
+    box-shadow: none;
+    transition: border .3s ease-in-out;
+    -webkit-transition: border .3s ease-in-out;
+    -moz-transition: border .3s ease-in-out;
+    -ms-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    color: #2a2a2a;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.contact input.name {} .contact input.email {} .contact input.button {
+    background-color: #50B4C8;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    border: 0;
+}
+.contact input.button:hover {
+    background-color: #60cff1;
+}
+.contact textarea {
+    width: 606px;
+    height: 110px;
+    max-width: 100%;
+    padding: 12px;
+    margin: 5px -12px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border: 1px solid #bebebe;
+    box-shadow: none;
+    transition: border .3s ease-in-out;
+    -webkit-transition: border .3s ease-in-out;
+    -moz-transition: border .3s ease-in-out;
+    -ms-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    color: #2a2a2a;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 15px 0 60px;
+}
+.past {
+    text-align: center;
+    padding: 80px 80px 80px;
+}
+.past h3 {
+    font-family: Raleway;
+    font-weight: 300;
+    color: #8a8a8a;
+    line-height: 1.35;
+    margin: 0px auto;
+    font-size: 23px;
+}
+.footer {
+    background-color: #E44D26;
+    text-align: center;
+    padding: 70px 0 170px;
+}
+.footer .social {} .footer .copyright {
+    font-family: Raleway;
+    color: #fff;
+    font-size: 14px;
+}
+.footer .copyright a,
+.footer .copyright a:hover {
+    font-family: Raleway;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+.clr {
+    clear: both;
+}
+-->
